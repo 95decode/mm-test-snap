@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "description": "An example Snap written in TypeScript.",
+  "proposedName": "TypeScript Example",
+  "source": {
+    "shasum": "STxuH+BjriYkPVsB0xyVllET/JpH2KgL2s6r39g7mss=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "mm-test-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "snap_notify": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    }
+  },
+  "manifestVersion": "0.1"
+}
